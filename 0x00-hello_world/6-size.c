@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 /**
-* main -entry point
-*
-* Description: A C prgramme that prints the sizeof function
-*
-* Return: Always 0 (Sucess)
-*
+ * main -entry point
+ *
+ * Description: A C prgramme that prints the sizeof function
+ *
+ * Return: Always 0 (Success)
+ *
 */
 int main(void)
 {
