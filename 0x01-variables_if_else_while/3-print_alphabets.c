@@ -1,9 +1,11 @@
 #include <stdio.h>
 /**
- * main - main block
+ * main - main - entry point
+ *
  * Description: Use `putchar` to print lowercase and then uppercase alphabet.
- * Return: 0
- */
+ *
+ * Return: 0 (Success)
+*/
 int main(void)
 {
 char ch = 'a';
