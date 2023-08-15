@@ -1,19 +1,21 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Description: A C  programme that prints putchar with putchar
- *
- * Return: 0 (Success)
- *
-*/
+ * main - prints _putchar, followed by a new line.
+ * Return: 0
+**/
+
 int main(void)
 {
-char str[] = "_putchar";
-int ch;
-for (ch = 0; ch < 8; ch++)
-_putchar(str[ch]);
-printf("\n");
-return (0);
+	unsigned int i;
+	char c[] = "_putchar";
+
+	for (i = 0; i <= 7; i++)
+	{
+		_putchar(c[i]);
+	}
+
+	_putchar('\n');
+
+	return (0);
 }
