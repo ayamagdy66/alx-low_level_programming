@@ -1,16 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main _ entry point
  *
- * Description: A C programme writ a script fot _putchar
+ * main _entry point
  *
- * Return: 0 (Success)
+ * Description: programme that prints putshar
+ *
+ * Return 0 (Success)
  *
 */
 int main(void)
 {
-printf("_putchar\n");
-
+char st[] = "_putchar";
+int ch;
+for(ch = 0; ch < 8; ch++)
+   _putchar(word[ch]);
+printf("\n");
 return (0);
 }
