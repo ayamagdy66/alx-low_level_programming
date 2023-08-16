@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *main - entry point
- *Description: prints putchar with putchar
- *Return: Always 0 (success)
+ * _putchar - prints putchar by using putchar
+ * @c character to test
+ * Return: Always 0 success
 */
 
-int main(void)
+int putchar(char c)
 {
 char word[] = "_putchar"
 int ch;
