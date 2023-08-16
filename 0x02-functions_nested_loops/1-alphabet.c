@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * Print_alphabet - utilize putchar to print_alphabet in lowercase from a to z
+ * Print_alphabet - Prints alphabet in lowercase from a to z
+ * Return: 0 Success
 */
 
 void print_alphabet(void)
