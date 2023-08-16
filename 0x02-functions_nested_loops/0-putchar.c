@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _putchar - prints putchar by using putchar
- * @c character to test
+ * _putchar - Prints putchar by using putchar
+ * @c: Character to test
  * Return: Always 0 success
 */
 
