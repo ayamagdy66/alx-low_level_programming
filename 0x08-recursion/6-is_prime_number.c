@@ -26,4 +26,4 @@ int prime_a(int a, int b)
 int is_prime_number(int n)
 {
 	return (prime_a(n, 2));
-}
+}}
